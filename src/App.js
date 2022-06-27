@@ -10,12 +10,15 @@ import NotFound from './NotFound/NotFound';
 import Signup from './SignUp/SignUp';
 import RequireAuth from './RequirAuth/RequirAuth';
 import Checkout from './Checkout/Checkout';
+import Footer from './Footer/Footer';
+import GoogleLogin from './GoogleLogin/GoogleLogin';
 
 
 function App() {
   return (
     <div >
       <Header></Header>
+     
       
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
@@ -26,7 +29,9 @@ function App() {
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/checkout' element={<RequireAuth><Checkout></Checkout></RequireAuth>}></Route>
         <Route path='/signup' element={<Signup></Signup>}></Route>
+        <Route path='/googlelogin' element={<GoogleLogin></GoogleLogin>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

@@ -1,6 +1,7 @@
-.banner-section{
+.banner-section {
     background-color: #F4DD60;
 }
+
 .first-section h1 {
 
     font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
@@ -10,25 +11,29 @@
     line-height: 1.3em;
 
 }
-.first-section p{
+
+.first-section p {
     color: #23272b;
-    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 700;
     text-align: left;
     font-size: 80px;
-    
+
 }
-.first-section{
+
+.first-section {
     margin: auto;
     margin-right: -160px;
     margin-top: 45px;
     padding-bottom: 20px;
 }
-.about-me img{
-  margin-top:  -100px;
-  margin-left: 120px;
+
+.about-me img {
+    margin-top: -100px;
+    margin-left: 120px;
 }
-.about-to p{
+
+.about-to p {
     color: #666;
     font-size: 18px;
     font-weight: 500;
@@ -36,21 +41,25 @@
     padding: 2px 5px;
     background-color: #F4DD60;
 }
-.about-to span{
+
+.about-to span {
     color: #212529;
     font-size: 40px;
     font-weight: 700;
 }
-.know-me h2{
+
+.know-me h2 {
     font-size: 32px;
     font-weight: 500;
 }
-.know-me span{
+
+.know-me span {
     font-weight: 700;
-    
+
     color: #333;
 }
-.know-me p{
+
+.know-me p {
     color: #212529;
     text-align: left;
     font-size: 21px;
@@ -58,12 +67,22 @@
     font-weight: 500;
     width: 700px;
 }
-.know-me .name{
+
+.know-me .name {
     font-size: 16px;
     color: #6c757d;
 }
-.know-me .my-name{
+
+.know-me .my-name {
     color: #343a40;
     font-size: 19px;
     font-weight: 500;
 }
+
+/* .future-goal p{
+    
+    
+    ;
+    
+    width: 700px;
+} */

@@ -3,6 +3,7 @@ import './Login.css'
 import { Link, useNavigate, useLocation } from 'react-router-dom'
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../src/Firebase/Firebase.init';
+import GoogleLogin from '../GoogleLogin/GoogleLogin';
 
 
 
@@ -20,7 +21,7 @@ const Login = () => {
     const navigate = useNavigate();
 
     const location = useLocation ();
-    const from = location.state?.from?.pathname || '/';
+    const from = location.state?.from?.pathname || '/checkout';
 
     const handleEmailBlur = event => {
         setEmail(event.target.value)
@@ -56,10 +57,15 @@ const Login = () => {
                         loading && <p>Loading....</p>
                     }
                     <input className='form-submit' type="submit" value="Login" required />
+                    <div className='text-center my-3 text-danger'><span>Or</span></div>
+                   <div className='text-center my-5'> <GoogleLogin></GoogleLogin></div>
                 </form>
                 <p style={{ textAlign: 'center' }}>
                     New to Tinzer? <Link className='form-link' to='/signup'>Create an account</Link>
+                    
                 </p>
+
+                
             </div>
         </div>
     );

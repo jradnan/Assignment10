@@ -13,6 +13,7 @@ import auth from '../../src/Firebase/Firebase.init';
 import './Header.css'
 
 
+
 const Header = () => {
     const [user] = useAuthState(auth)
 
@@ -21,6 +22,7 @@ const Header = () => {
     }
     return (
         <div>
+            
             <div className='px-5  py-2 background d-flex justify-content-between'>
                 <div className='d-flex px-2 mt-3'>
                     <p><img style={{ color: 'white' }} width={20} src={image} alt="" /><span className='px-2' style={{ color: 'white', fontSize: '14px', fontWeight: '500' }}>Mon-Fri 09-18.00</span></p>
@@ -59,7 +61,9 @@ const Header = () => {
                 </div>
             </div>
 
-   
+               
+        
+        
         </div>
     );
 };

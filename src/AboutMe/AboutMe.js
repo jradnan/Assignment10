@@ -86,6 +86,21 @@ const AboutMe = () => {
                         {/* image section end */}
                     </div>
                 </div>
+                <div>
+                    <div className="container">
+                        <div className="row">
+                          
+                            <div className="col-xl-4"></div>
+                            <div className="col-xl-4">
+                                  <div className=" mt-5">
+                                <h1 className='  text-center'>My Future Goal</h1>
+                                <p style={{color:'#212529',fontSize: '21px',fontWeight: '500',lineHeight: '1.8em'}} className='text-center future-goal'>I want's to be a fully mern stack web developer and I will be doing remote jobs that's my future goal</p>
+                            </div>
+                            </div>
+                            <div className="col-xl-4"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

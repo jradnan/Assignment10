@@ -12,7 +12,7 @@ const About = () => {
                     </div>
 
                     <div className="col-xl-6 right-eliment">
-                        <span style={{ color: '#207ef7', fontSize: '18px', fontWeight: '500', margin: '0px 20px' }}>About Us</span>
+                        <span style={{ color: '#207ef7', fontSize: '18px', fontWeight: '500', margin: '0px 20px' }}>About </span>
                         <h3 style={{ color: '#0F1339', fontSize: '32px', margin: '10px 20px', fontWeight: 'bold' }}>About Coronavirus Disease</h3>
                         <p className='about'>
                             The virus can spread from an infected person’s mouth or nose in small liquid particles when they cough, sneeze, speak, sing or breathe. These particles range from larger respiratory droplets to smaller aerosols.

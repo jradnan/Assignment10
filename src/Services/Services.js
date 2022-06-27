@@ -15,14 +15,14 @@ const Services = () => {
 
 
                     <div className="text-center mt-5">
-                        <span style={{ color: '#207ef7', fontSize: '18px', fontWeight: '500', margin: '0px 20px' }}>Our Services</span>
-                        <h3 style={{ color: '#0F1339', fontSize: '32px', margin: '10px 20px', fontWeight: 'bold' }}>Our Healthcare Services</h3>
+                        <span style={{ color: '#207ef7', fontSize: '18px', fontWeight: '500', margin: '0px 20px' }}>My Services</span>
+                        <h3 style={{ color: '#0F1339', fontSize: '32px', margin: '10px 20px', fontWeight: 'bold' }}>My Healthcare Services</h3>
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-4"></div>
                                 <div className="col-xl-4">
                                     <p style={{ lineHeight: '2rem', }} className='about text-center'>
-                                        We can send your prescription directly to your local pharmacy for easy pick-up.</p>
+                                        I can send your prescription directly to your local pharmacy for easy pick-up.</p>
                                 </div>
                                 <div className="col-xl-4"></div>
                             </div>
