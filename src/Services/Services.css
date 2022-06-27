@@ -36,3 +36,8 @@
 .image img{
     height: 880px;
 }
+@media only screen and (max-width:576px) {
+    .services-2 img{
+       margin-bottom: 112px;
+    }
+}

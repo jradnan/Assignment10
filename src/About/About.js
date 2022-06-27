@@ -6,12 +6,12 @@ const About = () => {
     return (
         <div >
             <div className="container mt-5 ">
-                <div className="d-flex ">
-                    <div className="left-image">
+                <div className="row">
+                    <div className="col-xl-6 left-image">
                         <img width={600} src={iamge} alt="" />
                     </div>
 
-                    <div className="right-eliment">
+                    <div className="col-xl-6 right-eliment">
                         <span style={{ color: '#207ef7', fontSize: '18px', fontWeight: '500', margin: '0px 20px' }}>About Us</span>
                         <h3 style={{ color: '#0F1339', fontSize: '32px', margin: '10px 20px', fontWeight: 'bold' }}>About Coronavirus Disease</h3>
                         <p className='about'>

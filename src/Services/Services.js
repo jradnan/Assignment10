@@ -52,7 +52,7 @@ const Services = () => {
                             <div className="row">
 
                                 {/* service 1 */}
-                                <div className=" services services-1 col-xl-6 text-center">
+                                <div className=" services services-1 col-xl-6 col-sm-6 text-center">
                                     <img src={service1} alt="" />
                                     <h3>Dermatology</h3>
                                     <p>Dermatology is the branch of medicine dealing with the skin. It is a speciality with both medical and surgical aspects. A dermatologist is a specialist medical doctor who manages diseases related to skin, hair, nails, and some cosmetic problems.</p>
@@ -64,7 +64,7 @@ const Services = () => {
 
 
                                 {/* service 2 */}
-                                <div className=" services-2 services col-xl-6 text-center">
+                                <div className=" col-sm-6 services-2 services col-xl-6 text-center sm-image">
                                     <img src={service2} alt="" />
                                     <h3>Mental Health</h3>
                                     <p>The diagnosis of mental illness can be controversial. There have been many debates in the medical community about what is and isn’t a mental illness. The definition can be influenced by our society and culture, but most mental illnesses occur across all countries and cultures.</p>
@@ -76,7 +76,7 @@ const Services = () => {
 
 
                                 {/* service 3 */}
-                                <div className="services-3 services col-xl-6 text-center mt-5">
+                                <div className="col-sm-6 services-3 services col-xl-6 text-center mt-5">
                                     <img src={service3} alt="" />
                                     <h3>Orthopedics</h3>
                                     <p>Orthopedics is a branch of medicine that focuses on the care of the musculoskeletal system. This system is made up of muscles and bones, as well as joints, ligaments, and tendons. A person who specializes in orthopedics is known as an orthopedist.</p>
@@ -87,7 +87,7 @@ const Services = () => {
 
 
                                 {/* service 4 */}
-                                <div className="col-xl-6 text-center mt-5 services services-4">
+                                <div className="col-xl-6 text-center col-sm-6 mt-5 services services-4">
                                     <img src={service4} alt="" />
                                     <h3>Gynecological</h3>
                                     <p>Gynaecology or gynecology (see spelling differences) is the area of medicine that involves the treatment of women's diseases, especially those of the reproductive organs. It is often paired with the field of obstetrics, forming the combined area of obstetrics and gynecology (OB-GYN).</p>

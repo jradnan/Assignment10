@@ -11,7 +11,7 @@ const AboutMe = () => {
                 <div className="container-fluid banner-section ">
                     <div className="row about-me ">
                         {/* about section */}
-                        <div className="col-xl-6 first-section px-5 ">
+                        <div className="col-xl-6 col-sm-12 first-section px-5 ">
                             <h1>HI, I’M A FREELANCER</h1>
                             <p>WEB DEVELOPER</p>
                             <h1>AND WORDPRESS SPECIALIST</h1>
@@ -20,7 +20,7 @@ const AboutMe = () => {
                         {/* section end */}
 
                         {/* image section */}
-                        <div className="col-xl-6 about-me">
+                        <div className="col-xl-6 col-sm-12 about-me">
                             <img width={550} src={image} alt="" />
                         </div>
 

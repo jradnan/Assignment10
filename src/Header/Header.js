@@ -1,4 +1,5 @@
 import React from 'react';
+import {signOut} from 'firebase/auth';
 import { Link } from 'react-router-dom'
 import image from '../Image/clock.png'
 import image2 from '../Image/phone.png'
@@ -7,10 +8,17 @@ import image4 from '../Image/facebook.png'
 import image5 from '../Image/whatsapp.png'
 import image6 from '../Image/twitter.png'
 import Logo from '../Image/logo.png'
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from '../../src/Firebase/Firebase.init';
 import './Header.css'
 
 
 const Header = () => {
+    const [user] = useAuthState(auth)
+
+    const handleSignOut = () =>{
+        signOut(auth);
+    }
     return (
         <div>
             <div className='px-5  py-2 background d-flex justify-content-between'>
@@ -25,7 +33,7 @@ const Header = () => {
                         <span className='px-3'><img width={20} src={image4} alt="" /></span>
                         <span ><img width={20} src={image5} alt="" /></span>
                         <span className='px-3 '><img width={20} src={image6} alt="" /></span>
-                        <h1 className='text-light d-flex ' style={{ fontSize: '17px' }}>Login</h1></Link></div>
+                        </Link></div>
 
             </div>
 
@@ -35,9 +43,16 @@ const Header = () => {
                 </div>
                 <div className='menu'>
                 <Link  to='/'>Home</Link>
-                <Link  to='/about'>About</Link>
+                <Link  to='/aboutme'>About</Link>
                 <Link  to='/services'>Services</Link>
                 <Link  to='/blog'>Blog</Link>
+                <Link  to='/checkout'>Checkout</Link>
+                {
+                    user?
+                    <button id='signout' className='btn btn-primary' onClick={handleSignOut}>Sign out</button>
+                    :
+                    <Link to='/Login'><button className='btn btn-primary'>Login</button> </Link>
+                }
                 </div>
                 <div>
 
