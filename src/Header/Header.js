@@ -13,7 +13,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
-            <div className='px-5 py-2 background d-flex justify-content-between'>
+            <div className='px-5  py-2 background d-flex justify-content-between'>
                 <div className='d-flex px-2 mt-3'>
                     <p><img style={{ color: 'white' }} width={20} src={image} alt="" /><span className='px-2' style={{ color: 'white', fontSize: '14px', fontWeight: '500' }}>Mon-Fri 09-18.00</span></p>
                     <p className='px-3'><img width={20} src={image2} alt="" /><span className='px-2' style={{ color: 'white', fontSize: '14px', fontWeight: '500' }}>Call Us: +821-456-241</span></p>
@@ -29,7 +29,7 @@ const Header = () => {
 
             </div>
 
-            <div className='py-3 sticky d-flex justify-content-between px-5'>
+            <div className='py-3 d-flex justify-content-between px-5'>
                 <div>
                     <img src={Logo} alt="" />
                 </div>
@@ -37,6 +37,7 @@ const Header = () => {
                 <Link  to='/'>Home</Link>
                 <Link  to='/about'>About</Link>
                 <Link  to='/services'>Services</Link>
+                <Link  to='/blog'>Blog</Link>
                 </div>
                 <div>
 

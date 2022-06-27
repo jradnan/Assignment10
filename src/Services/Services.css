@@ -1,0 +1,38 @@
+.main-service{
+    margin-left: 20px;
+}
+.services{
+    border: 2px solid #2883F2;
+    padding: 20px 20px;
+    border-radius: 10px;
+   
+    
+}
+.services-1{
+    margin-bottom: -30px;
+    margin-left: -30px;
+    
+}
+
+.services-2{
+    margin: auto;
+    margin-bottom: -30px;
+}
+.services-3{
+    margin: auto;
+    margin-left: -30px;
+    padding-bottom: 50px;
+}
+.services-4{
+    margin: auto;
+    padding-bottom: 20px;
+    margin-left: -1px;
+    
+}
+.all-services{
+    width: 650px;
+    margin: auto;
+}
+.image img{
+    height: 880px;
+}

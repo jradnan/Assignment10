@@ -1,0 +1,17 @@
+/* .count {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+
+} */
+/* .count {
+    border: 1px solid rgb(75, 43, 43);
+    padding:0px 210px;
+    box-shadow: 5px 10px;
+} */
+@media only screen and (max-width:576px) {
+    .count{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
