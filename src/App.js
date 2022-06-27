@@ -6,6 +6,7 @@ import Home from './Home/Home'
 import AboutMe from "./AboutMe/AboutMe";
 import Login from './Login/Login';
 import Blog from './Blog/Blog';
+import NotFound from './NotFound/NotFound';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header></Header>
       
       <Routes>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/services' element={<Services></Services>}></Route>
